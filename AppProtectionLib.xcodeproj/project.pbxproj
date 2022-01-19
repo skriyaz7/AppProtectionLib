@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952EA17827987BEF00A53382 /* AppProtectionCompliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EA17727987BEF00A53382 /* AppProtectionCompliance.swift */; };
 		95375C882798123E00879F11 /* AppProtectionLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 95375C872798123E00879F11 /* AppProtectionLib.docc */; };
 		95375C8E2798123F00879F11 /* AppProtectionLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95375C832798123E00879F11 /* AppProtectionLib.framework */; };
 		95375C932798123F00879F11 /* AppProtectionLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95375C922798123F00879F11 /* AppProtectionLibTests.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		952EA17727987BEF00A53382 /* AppProtectionCompliance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProtectionCompliance.swift; sourceTree = "<group>"; };
 		95375C832798123E00879F11 /* AppProtectionLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppProtectionLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95375C862798123E00879F11 /* AppProtectionLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppProtectionLib.h; sourceTree = "<group>"; };
 		95375C872798123E00879F11 /* AppProtectionLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AppProtectionLib.docc; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				95375C862798123E00879F11 /* AppProtectionLib.h */,
 				95375C872798123E00879F11 /* AppProtectionLib.docc */,
+				952EA17727987BEF00A53382 /* AppProtectionCompliance.swift */,
 			);
 			path = AppProtectionLib;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95375C882798123E00879F11 /* AppProtectionLib.docc in Sources */,
+				952EA17827987BEF00A53382 /* AppProtectionCompliance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +478,7 @@
 		95375C9B2798123F00879F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NPB9J4KRXA;
@@ -490,6 +495,7 @@
 		95375C9C2798123F00879F11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NPB9J4KRXA;
